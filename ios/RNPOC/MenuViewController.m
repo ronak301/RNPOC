@@ -1,16 +1,7 @@
-//
-//  MenuViewController.m
-//  RNEmbeddedAppExample
-//
-//  Created by Dave Sibiski on 9/2/15.
-//  Copyright (c) 2015 Facebook. All rights reserved.
-//
 
 #import "MenuViewController.h"
 
 #import "ViewInViewController.h"
-#import "PassingDataViewController.h"
-#import "ModalWithNavigatorViewController.h"
 
 @interface MenuViewController ()
 
@@ -24,19 +15,14 @@
     [super viewDidLoad];
     
     data = @{
-        @"sectionTitles": @[@"Simple", @"Advanced"],
+        @"sectionTitles": @[@"Simple"],
         @"sectionKeys": @[
-            @[@"ViewInView", @"PassingData"],
-            @[@"ModalWithNavigator"],
+            @[@"ViewInView"],
         ],
         @"sectionData": @[
             @[
                 @"React View inside a Native View",
-                @"Passing Data into a React View",
-            ],
-            @[
-                @"Native Modal with RN Navigation",
-            ],
+            ]
         ],
     };
 }
@@ -82,14 +68,6 @@
     if ([chosenItem isEqualToString:@"ViewInView"]) {
         ViewInViewController *viewInViewController = [[ViewInViewController alloc] init];
         [self.navigationController pushViewController:viewInViewController animated:YES];
-    }
-    else if ([chosenItem isEqualToString:@"PassingData"]) {
-        PassingDataViewController *passingDataViewController = [[PassingDataViewController alloc] init];
-        [self.navigationController pushViewController:passingDataViewController animated:YES];
-    }
-    else if ([chosenItem isEqualToString:@"ModalWithNavigator"]) {
-        ModalWithNavigatorViewController *modalWithNavigatorViewController = [[ModalWithNavigatorViewController alloc] init];
-        [self.navigationController presentViewController:modalWithNavigatorViewController animated:YES completion:nil];
     }
 }
 

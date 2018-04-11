@@ -12,13 +12,13 @@ var {
 } = ReactNative;
 
 import SimpleView from './SimpleView'
-import PassingData from './PassingData';
-import ModalWithNavigator from './ModalWithNavigator';
+// import PassingData from './PassingData';
+// import ModalWithNavigator from './ModalWithNavigator';
 
 export default SimpleView
 
 // Here we are exposing each component as different `modules` so that we can
 // gain access to them and starting points in our RCTRootViews.
 AppRegistry.registerComponent('SimpleView', () => SimpleView);
-AppRegistry.registerComponent('PassingData', () => PassingData);
-AppRegistry.registerComponent('ModalWithNavigator', () => ModalWithNavigator);
+// AppRegistry.registerComponent('PassingData', () => PassingData);
+// AppRegistry.registerComponent('ModalWithNavigator', () => ModalWithNavigator);

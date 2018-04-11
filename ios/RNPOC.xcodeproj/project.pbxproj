@@ -36,18 +36,10 @@
 		2DCD954D1E0B4F2C00145EB5 /* RNPOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RNPOCTests.m */; };
 		2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
-		73081C15207D45100026382E /* CalendarTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 73081C14207D45100026382E /* CalendarTest.m */; };
-		73081C3D207D5D640026382E /* CalendarTest2.m in Sources */ = {isa = PBXBuildFile; fileRef = 73081C3C207D5D640026382E /* CalendarTest2.m */; };
-		73E8FC86207CAC2A00B6A3BA /* RNTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E8FC85207CAC2A00B6A3BA /* RNTestViewController.m */; };
 		73E8FC9F207CB43F00B6A3BA /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E8FC92207CB43D00B6A3BA /* MenuViewController.m */; };
-		73E8FCA0207CB43F00B6A3BA /* ModalWithNavigatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E8FC93207CB43D00B6A3BA /* ModalWithNavigatorViewController.m */; };
-		73E8FCA1207CB43F00B6A3BA /* ModalWithNavigatorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73E8FC95207CB43E00B6A3BA /* ModalWithNavigatorViewController.xib */; };
 		73E8FCA2207CB43F00B6A3BA /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73E8FC96207CB43E00B6A3BA /* MenuViewController.xib */; };
-		73E8FCA3207CB43F00B6A3BA /* PassingDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E8FC98207CB43E00B6A3BA /* PassingDataViewController.m */; };
-		73E8FCA4207CB43F00B6A3BA /* PassingDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73E8FC99207CB43E00B6A3BA /* PassingDataViewController.xib */; };
 		73E8FCA5207CB43F00B6A3BA /* ViewInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E8FC9A207CB43E00B6A3BA /* ViewInViewController.m */; };
 		73E8FCA6207CB43F00B6A3BA /* ViewInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73E8FC9B207CB43E00B6A3BA /* ViewInViewController.xib */; };
-		73E8FCA7207CB43F00B6A3BA /* ModalWithNavigatorCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E8FC9D207CB43F00B6A3BA /* ModalWithNavigatorCoordinator.m */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 /* End PBXBuildFile section */
@@ -351,25 +343,11 @@
 		2D02E4901E0B4A5D006451C7 /* RNPOC-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RNPOC-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
-		73081C13207D45100026382E /* CalendarTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalendarTest.h; sourceTree = "<group>"; };
-		73081C14207D45100026382E /* CalendarTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalendarTest.m; sourceTree = "<group>"; };
-		73081C3B207D5D640026382E /* CalendarTest2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalendarTest2.h; sourceTree = "<group>"; };
-		73081C3C207D5D640026382E /* CalendarTest2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalendarTest2.m; sourceTree = "<group>"; };
-		73E8FC84207CAC2A00B6A3BA /* RNTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNTestViewController.h; sourceTree = "<group>"; };
-		73E8FC85207CAC2A00B6A3BA /* RNTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNTestViewController.m; sourceTree = "<group>"; };
-		73E8FC91207CB43D00B6A3BA /* ModalWithNavigatorCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModalWithNavigatorCoordinator.h; path = RNPOC/ModalWithNavigatorCoordinator.h; sourceTree = "<group>"; };
 		73E8FC92207CB43D00B6A3BA /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuViewController.m; path = RNPOC/MenuViewController.m; sourceTree = "<group>"; };
-		73E8FC93207CB43D00B6A3BA /* ModalWithNavigatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ModalWithNavigatorViewController.m; path = RNPOC/ModalWithNavigatorViewController.m; sourceTree = "<group>"; };
-		73E8FC94207CB43D00B6A3BA /* ModalWithNavigatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModalWithNavigatorViewController.h; path = RNPOC/ModalWithNavigatorViewController.h; sourceTree = "<group>"; };
-		73E8FC95207CB43E00B6A3BA /* ModalWithNavigatorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ModalWithNavigatorViewController.xib; path = RNPOC/ModalWithNavigatorViewController.xib; sourceTree = "<group>"; };
 		73E8FC96207CB43E00B6A3BA /* MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MenuViewController.xib; path = RNPOC/MenuViewController.xib; sourceTree = "<group>"; };
-		73E8FC97207CB43E00B6A3BA /* PassingDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PassingDataViewController.h; path = RNPOC/PassingDataViewController.h; sourceTree = "<group>"; };
-		73E8FC98207CB43E00B6A3BA /* PassingDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PassingDataViewController.m; path = RNPOC/PassingDataViewController.m; sourceTree = "<group>"; };
-		73E8FC99207CB43E00B6A3BA /* PassingDataViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PassingDataViewController.xib; path = RNPOC/PassingDataViewController.xib; sourceTree = "<group>"; };
 		73E8FC9A207CB43E00B6A3BA /* ViewInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewInViewController.m; path = RNPOC/ViewInViewController.m; sourceTree = "<group>"; };
 		73E8FC9B207CB43E00B6A3BA /* ViewInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ViewInViewController.xib; path = RNPOC/ViewInViewController.xib; sourceTree = "<group>"; };
 		73E8FC9C207CB43F00B6A3BA /* ViewInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewInViewController.h; path = RNPOC/ViewInViewController.h; sourceTree = "<group>"; };
-		73E8FC9D207CB43F00B6A3BA /* ModalWithNavigatorCoordinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ModalWithNavigatorCoordinator.m; path = RNPOC/ModalWithNavigatorCoordinator.m; sourceTree = "<group>"; };
 		73E8FC9E207CB43F00B6A3BA /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuViewController.h; path = RNPOC/MenuViewController.h; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
@@ -516,14 +494,6 @@
 				73E8FC9E207CB43F00B6A3BA /* MenuViewController.h */,
 				73E8FC92207CB43D00B6A3BA /* MenuViewController.m */,
 				73E8FC96207CB43E00B6A3BA /* MenuViewController.xib */,
-				73E8FC91207CB43D00B6A3BA /* ModalWithNavigatorCoordinator.h */,
-				73E8FC9D207CB43F00B6A3BA /* ModalWithNavigatorCoordinator.m */,
-				73E8FC94207CB43D00B6A3BA /* ModalWithNavigatorViewController.h */,
-				73E8FC93207CB43D00B6A3BA /* ModalWithNavigatorViewController.m */,
-				73E8FC95207CB43E00B6A3BA /* ModalWithNavigatorViewController.xib */,
-				73E8FC97207CB43E00B6A3BA /* PassingDataViewController.h */,
-				73E8FC98207CB43E00B6A3BA /* PassingDataViewController.m */,
-				73E8FC99207CB43E00B6A3BA /* PassingDataViewController.xib */,
 				73E8FC9C207CB43F00B6A3BA /* ViewInViewController.h */,
 				73E8FC9A207CB43E00B6A3BA /* ViewInViewController.m */,
 				73E8FC9B207CB43E00B6A3BA /* ViewInViewController.xib */,
@@ -533,12 +503,6 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
-				73E8FC84207CAC2A00B6A3BA /* RNTestViewController.h */,
-				73E8FC85207CAC2A00B6A3BA /* RNTestViewController.m */,
-				73081C13207D45100026382E /* CalendarTest.h */,
-				73081C14207D45100026382E /* CalendarTest.m */,
-				73081C3B207D5D640026382E /* CalendarTest2.h */,
-				73081C3C207D5D640026382E /* CalendarTest2.m */,
 			);
 			name = RNPOC;
 			sourceTree = "<group>";
@@ -1099,8 +1063,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				73E8FCA6207CB43F00B6A3BA /* ViewInViewController.xib in Resources */,
-				73E8FCA4207CB43F00B6A3BA /* PassingDataViewController.xib in Resources */,
-				73E8FCA1207CB43F00B6A3BA /* ModalWithNavigatorViewController.xib in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				73E8FCA2207CB43F00B6A3BA /* MenuViewController.xib in Resources */,
@@ -1169,15 +1131,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				73E8FCA5207CB43F00B6A3BA /* ViewInViewController.m in Sources */,
-				73E8FC86207CAC2A00B6A3BA /* RNTestViewController.m in Sources */,
-				73E8FCA7207CB43F00B6A3BA /* ModalWithNavigatorCoordinator.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
-				73E8FCA3207CB43F00B6A3BA /* PassingDataViewController.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 				73E8FC9F207CB43F00B6A3BA /* MenuViewController.m in Sources */,
-				73081C15207D45100026382E /* CalendarTest.m in Sources */,
-				73081C3D207D5D640026382E /* CalendarTest2.m in Sources */,
-				73E8FCA0207CB43F00B6A3BA /* ModalWithNavigatorViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

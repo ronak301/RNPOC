@@ -18,10 +18,7 @@ public class MainActivity extends ReactActivity {
      * Returns the name of the main component registered from JavaScript.
      * This is used to schedule rendering of the component.
      */
-    @Override
-    protected String getMainComponentName() {
-        return "RNPOC";
-    }
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,7 +36,7 @@ public class MainActivity extends ReactActivity {
                 .build();
         // The string here (e.g. "MyReactNativeApp") has to match
         // the string in AppRegistry.registerComponent() in index.js
-        mReactRootView.startReactApplication(mReactInstanceManager, "RNPOC", null);
+        mReactRootView.startReactApplication(mReactInstanceManager, "SimpleView", null);
 
         LinearLayout layout = (LinearLayout) findViewById(R.id.reactContainer);
         layout.addView(mReactRootView);
